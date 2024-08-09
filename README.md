@@ -9,3 +9,9 @@
 
 -   Library class.
 -   Interactive comments in web page.
+
+## HW03 - LocalStorage:
+
+-   set data in local storage.
+-   get data from local storage.
+-   product review list.

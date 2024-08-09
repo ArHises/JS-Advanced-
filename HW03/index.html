@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles.css" />
+        <script src="script.js" defer></script>
+        <title>Add reviews</title>
+    </head>
+    <body>
+        <h1>Review a product:</h1>
+        <form id="review-form">
+            <label for="productName">Product name:</label>
+            <input
+                type="text"
+                id="productName"
+                placeholder="product"
+                required
+            />
+            <label for="reviewText">description:</label>
+            <textarea rows="4" cols="40" id="reviewText" required></textarea>
+            <button type="submit">Add review</button>
+        </form>
+        <a href="reviews.html">Check the reviews ></a>
+    </body>
+</html>

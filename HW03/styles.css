@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(68, 73, 75);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+}
+
+#review-form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 15px;
+}
+
+a,
+button {
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(35, 39, 40);
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    gap: 25px;
+}
+
+.container section {
+    padding-left: 15px;
+    background-color: rgb(35, 39, 40);
+    width: 100%;
+}
+
+li {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+
+    &:last-child {
+        border-bottom: none;
+    }
+}
+
+.products-list li {
+    cursor: pointer;
+}
+
+.review-list li {
+    display: flex;
+    justify-content: space-between;
+}
+
+.delete-button {
+    color: rgb(222, 40, 40);
+}
